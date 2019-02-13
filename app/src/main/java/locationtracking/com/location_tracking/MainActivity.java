@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Create the location request to start receiving updates
         LocationRequest mLocationRequest = new LocationRequest();
         mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-//        mLocationRequest.setSmallestDisplacement(100f);
+        mLocationRequest.setSmallestDisplacement(100f);
         mLocationRequest.setInterval(0);
         mLocationRequest.setFastestInterval(0);
 
